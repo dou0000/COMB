@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Environment
+myenv/
+.venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Crash dumps
+core
+core.*
+
+# Training run outputs (large)
+default_*/
+checkpoints_3/
+saved_models/
+tcga_tl_checkpoints/
+eval/
+
+# Raw data 
+imagesT/
+
+# Logs / scratch
+slurm_logs/
+slurm_logs_inference/
+debug/
+tmp/
+*.err
+*.out
+*.log
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Large data blobs
+*.npy
+*.npz
+*.svs
+*.tif
+*.tiff
+*.h5
+*.hdf5
