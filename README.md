@@ -37,7 +37,7 @@ python WSI_inference.py \
 
 ### CBAM mixing
 
-Defaults match the paper's Eq. 2 (α = 0.3, R = 2, center excluded). Pass `--alpha 1.0 --include_center` to override.
+Defaults match the paper's Eq. 2 (α = 0.3, R = 2, center excluded). Pass `--alpha #` to override.
 
 ### Resolution scaling
 
