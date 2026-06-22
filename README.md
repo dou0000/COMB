@@ -4,13 +4,6 @@ Official implementation of **"Seamless Whole Slide Label-Free Virtual Staining"*
 
 We introduce the **Consistency Memory Bank (COMB)**, a label-free virtual staining framework that decouples context storage from computation to enforce spatial and channel consistency across patches without memory bottlenecks. COMB combines retrieval-based **local padding** for spatial continuity and **neighbor-aware CBAM** for channel-statistic stability, with a sliding-window memory schedule for tractable inference on gigapixel WSIs.
 
-## Authors
-
-Dou Hoon Kwark, Kianoush Falahkheirkhah, Ji-Hun Oh, Shirui Luo, Volodymyr Kindratenko\*, Rohit Bhargava\*
-
-\*Contributed equally
-
-
 ## Training
 
 ```bash
